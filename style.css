@@ -33,3 +33,17 @@ h4 {
 .card {
   margin-inline: 5px;
 }
+.list-group-item {
+  background-color: transparent;
+  color: gray;
+  border: none;
+  text-align: start;
+  font-size: 12px;
+  font-weight: ;
+}
+footer .btn {
+  background-color: transparent;
+  border-color: gray;
+  color: gray;
+  font-size: small;
+}
