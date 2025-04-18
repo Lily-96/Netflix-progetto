@@ -39,11 +39,11 @@ h4 {
   border: none;
   text-align: start;
   font-size: 12px;
-  font-weight: ;
 }
 footer .btn {
   background-color: transparent;
   border-color: gray;
   color: gray;
   font-size: small;
+  border-radius: 0%;
 }

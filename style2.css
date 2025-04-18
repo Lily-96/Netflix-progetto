@@ -1,8 +1,64 @@
-body {
-  background-color: #141414;
-  color: white;
-}
 h1 {
   font-size: 3.5rem;
-  text-align: left;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid grey;
+  border-width: 10%;
+}
+
+body {
+  background-color: #111;
+  color: white;
+}
+.profile-icon {
+  background-color: #28a745;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.form-section {
+  border-top: 1px solid #444;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-radius: 0%;
+}
+.btn-light {
+  background-color: #ccc;
+}
+.form-control,
+.form-select {
+  background-color: #222;
+  color: white;
+  border: 1px solid #444;
+}
+#profile-name {
+  background-color: RGB(108, 117, 125);
+  border-radius: 0%;
+}
+#language-select {
+  border-radius: 0%;
+}
+#maturity-label {
+  background-color: RGB(108, 117, 125);
+  opacity: 0.75;
+  border-radius: 0%;
+}
+#edit-maturity {
+  border-radius: 0%;
+  opacity: 0.75;
+}
+
+#save-btn {
+  border-radius: 0%;
+}
+#cancel-btn {
+  border-radius: 0%;
+}
+#delete-profile {
+  border-radius: 0%;
 }
